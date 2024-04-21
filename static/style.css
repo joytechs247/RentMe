@@ -1,0 +1,6 @@
+/* style.css */
+.banner {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpv9Zrm4QclSBvQ_lLpnOJAQx1wHG96c5obkySy-MF&s'); 
+    background-size: cover;
+    height: 400px;
+}
