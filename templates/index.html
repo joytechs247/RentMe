@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Rental</title>
+    <title>Scooter Rental</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
         .banner {
-            background-image: url('https://imzacarrental.com/duyurular/-22d20d3caf.png'); 
+            background-image: url('https://www.va-yu.com/img/slideTwo.png'); 
             background-size: cover;
             height: 400px;
         }
@@ -17,11 +17,11 @@
 <body>
     <header class="bg-gray-800 text-white p-4 flex justify-between items-center">
         <div class="container mx-auto">
-            <h1 class="text-2xl">RentMe - Welcome to Car Rental</h1>
+            <h1 class="text-2xl">RentMe - Welcome to Scooter Rental</h1>
         </div>
         <div>
             <a href="/add_car" class="">
-                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded w-36"> Add Car</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded w-36"> Add Scooters</button>
             </a>
         </div>
     </header>
@@ -29,7 +29,7 @@
     <div class="banner w-full "></div>
 
     <main class="container mx-auto py-8">
-        <h2 class="text-xl font-bold mb-4">Available Cars</h2>
+        <h2 class="text-xl font-bold mb-4">Available Scooters</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {% for car in cars %}
             <a href="/car/{{ car.id }}" class="block">
@@ -45,7 +45,7 @@
 
     <footer class="bg-gray-800 text-white p-4">
         <div class="container mx-auto">
-            <p>&copy; 2024 Car Rental</p>
+            <p>&copy; 2024 Scooter Rental</p>
         </div>
     </footer>
 </body>
